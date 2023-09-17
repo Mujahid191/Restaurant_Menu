@@ -1,0 +1,254 @@
+@media (max-width: 1250px) {
+    .fq_text{
+        top: 250px;
+    }
+}
+@media (max-width: 1200px) {
+    .top_bar{
+        padding: 30px 7rem;
+    }
+    .about_p1, .fq_p1, .ef_p1, .best_meal_p1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1024px) {
+    .top_bar{
+        padding: 30px 4rem;
+    }
+    .fixed{
+        padding: 15px 80px !important;
+    }
+    .banner_h1{
+        font-size: 6rem;
+    }
+    .about_p1, .fq_p1, .ef_p1, .best_meal_p1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 991px) {
+    html{
+        font-size: 58%;
+    }
+    .fixed{
+        padding: 15px 60px !important;
+    }
+    .banner, .about{
+        padding: 90px 0px;
+    }
+    .banner_h1{
+        font-size: 5.5rem;
+        line-height: 5.5rem;
+    }
+    .fq_text{
+        left: 9%;
+    }
+    .about_p1, .fq_p1, .ef_p1, .best_meal_p1, .banner_p1{
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+    }
+    .ef_col{
+        border: 8px solid #e58f00;
+        margin: 100px 0px;
+        padding: 60px;
+    }
+    .gallery_section{
+        margin-top: 100px;
+    }
+    .gallery_img{
+        margin-top: 50px;
+    }
+    .menu_section {
+        margin: 70px 0px;
+    }
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 55% !important;
+    }
+    .fixed{
+        padding: 15px 40px !important;
+    }
+    .top_bar{
+        justify-content: space-between !important;
+    }
+    .site_logo{
+        margin: 0% !important;
+    }
+    .toggle-icon{
+        display: block;
+    }
+    .nav{
+        flex-direction: column;
+        z-index: 1000;
+    }
+    .left_nav{
+        top: 0% !important;
+        position: absolute;
+        left: -35%;
+        padding-top: 6rem;
+        background-color: #1d1d23cb;
+        padding-right: 50px !important;
+        height: 100vh;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    .right_nav{
+        top: 24rem;
+        position: absolute;
+        left: -35%;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    .left_nav .nav-item, .right_nav .nav-item {
+        margin: 5px 0px !important;
+    }
+    .nav-link{
+        letter-spacing: 0.5px;
+        font-weight: 100;
+        color: #e58f00;
+    }
+    .show{
+        left: 0%;
+    }
+    /* Banner */
+    .banner_row{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner, .about{
+        padding: 70px 0px;
+    }
+    .banner_r{
+        margin-top: -4rem;
+        margin-bottom: 4rem;
+    }
+    .about_row{
+        text-align: center;
+    }
+    .about_r{
+        margin-top: 3rem;
+    }
+    .fq_text{
+        left: 4%;
+        top: 170px;
+    }
+    .gallery_section{
+        margin-bottom: 100px;
+    }
+    .gallery_img{
+        text-align: center;
+    }
+    .menu_col{
+        margin-bottom: 3rem;
+    }
+    .best_meal_text{
+        padding-left: 3px;
+    }
+    .best_meal_h1, .fq_h1{
+        font-size: 4.5rem;
+    }
+    .best_meal_p1{
+        margin-top: 1rem !important;
+    }
+    .ft_nav{
+        flex-direction: column;
+    }
+    .ft_nav .nav-item{
+        margin-bottom: 1.5rem;
+    }
+    .ft_nav .nav-link{
+        color: white;
+        font-weight: 450 !important;
+    }
+    .icons{
+        margin-top: 25px;
+    }
+}
+@media (max-width: 630px) {
+    .fq_text{
+        top: 140px;
+    }
+    .best_meal_h1, .fq_h1{
+        font-size: 4.1rem;
+    }
+    .about_p1, .fq_p1, .ef_p1, .best_meal_p1, .banner_p1{
+        font-size: 2rem !important;
+    }
+}
+@media (max-width: 540px) {
+    html{
+        font-size: 50% !important;
+    }
+    .fq_text{
+        top: 120px;
+    }
+    .best_meal_h1, .fq_h1{
+        font-size: 4.1rem;
+    }
+    .about_p1, .fq_p1, .ef_p1, .best_meal_p1, .banner_p1{
+        font-size: 2rem !important;
+    }
+    .site_logo{
+        width: 47% !important;
+    }
+}
+@media (max-width: 480px) {
+    .fq_text{
+        top: 120px;
+    }
+    .best_meal_h1{
+        font-size: 3.8rem;
+    }
+    .about_p1, .fq_p1, .ef_p1, .best_meal_p1, .banner_p1{
+        font-size: 1.7rem !important;
+        line-height: 2.3rem;
+    }
+    .fq_h1{
+        font-size: 3rem;
+    }
+    .best_meal_h1{
+        font-size: 2.5rem;
+    }
+    .site_logo{
+        width: 45%;
+    }
+    .fa-brands{
+        margin: 0px 5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 410px) {
+    html{
+        font-size: 45%;
+    }
+    .site_logo{
+        width: 40%;
+    }
+    .banner_h1{
+        font-size: 5rem;
+    }
+    .about_h1{
+        font-size: 4.5rem;
+    }
+    .about_p1, .fq_p1, .ef_p1, .best_meal_p1, .banner_p1{
+        font-size: 1.5rem !important;
+        line-height: 2rem;
+    }
+    .best_meal_p1{
+        margin-top: 0px !important;
+        line-height: 1.5rem;
+    }
+    .fq_text{
+        top: 90px;
+    }
+    .ef_col{
+        border: 3px solid #e58f00;
+        margin: 30px 0px;
+        padding: 10px;
+    }
+}

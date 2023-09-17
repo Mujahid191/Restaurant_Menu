@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'aachen-bt-roman';
+    src: url(assets/fonts/Aachen\ Roman\ font.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+html{
+    font-size: 10px;
+}
+*{
+    transition: all 0.5s ease !important;
+    -webkit-transition: all 0.5s ease !important;
+    -moz-transition: all 0.5s ease !important;
+    -ms-transition: all 0.5s ease !important;
+    -o-transition: all 0.5s ease !important;
+}
+body{
+    color: white;
+    background-color: #1d1d23;
+    font-family: 'aachen-bt-roman', sans-serif !important;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-smooth: always !important;
+}
+.cl{
+    color: #e58f00;
+}
+.tc{
+    text-transform: capitalize;
+}
+.hero{
+    background-image: url(assets/Images/h-bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top_bar{
+    align-items: center;
+    padding: 30px 12rem;
+}
+.nav-link{
+    color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #e58f00;
+}
+/* ===========Toggle Icon ===========*/
+.toggle-icon {
+    width: 20px;
+    height: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0px;
+    z-index: 9999;
+  }
+  .toggle-icon span {
+    position: absolute;
+    left: 0;
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .toggle-icon span:nth-child(1) {
+    top: 0;
+  }
+  
+  .toggle-icon span:nth-child(2) {
+    top: calc(50% - 3px);
+    opacity: 1;
+  }
+  .toggle-icon span:nth-child(3) {
+    top: calc(100% - 6px);
+  }
+  
+  .toggle-icon.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+    background-color: #e58f00;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+  .toggle-icon.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .toggle-icon.active span:nth-child(3) {
+    top: 50%;
+    background-color: #e58f00;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+/* ===========Toggle Icon ===========*/
+.fixed{
+    background-color: #1d1d23cb;
+    width: 100%;
+    padding: 15px 100px!important;
+    position: fixed;
+    top: -10%;
+    left: 0%;
+    right: 0%;
+    z-index: 999;
+}
+.factive{
+    top: 0%;
+}
+/* ===========Banner ===========*/
+.banner{
+    padding: 120px 0px;
+}
+.banner_r{
+    align-self: center;
+}
+.banner_h1{
+    font-size: 6.67rem;
+}
+.banner_p1{
+    font-size: 2.5rem;
+}
+.banner_btn1{
+    font-size: 2.5rem;
+    padding: 8px 15px;
+    background-color: #e58f00;
+}
+.banner_btn1:hover{
+    border: 1px solid #e58f00;
+}
+/* ===========Banner ===========*/
+/* ===========About Section ===========*/
+.about{
+    padding: 120px 0px;
+}
+.about_r{
+    align-self: center;
+}
+.about_h1{
+    font-size: 5rem;
+}
+.about_p1{
+    font-size: 3.33rem;
+}
+/* ===========About Section ===========*/
+/* ===========Food Quality Section ===========*/
+.fq_i1{
+    position: absolute;
+    right: 0;
+    width: 30%;
+}
+.fq_bg{
+    height: fit-content;
+    margin-top: 40px;
+}
+.fq_text{
+    position: absolute;
+    top: 400px;
+    z-index: 99;
+}
+.fq_h1{
+    font-size: 5rem;
+}
+.fq_p1{
+    font-size: 3.3rem;
+}
+.fq_i2{
+    position: absolute;
+    right: -10px;
+    width: 60%;
+    top: 42%;
+}
+.fq_i3{
+    position: absolute;
+    left: -10px;
+    width: 39%;
+    bottom: 0%;
+}
+/* ===========Food Quality Section ===========*/
+/* ===========Gallery Section start ===========*/
+.gallery_section{
+    margin: 180px auto;
+}
+.gallery_h1{
+    font-size: 5rem;
+}
+.gallery_img{
+    margin-top: 100px;
+}
+/* =========== Gallery Section end ===========*/
+/* =========== Enjoy Food Section ===========*/
+.enjoy_food{
+    background-image: url("assets/Images/p4-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ef_col{
+    border: 10px solid #e58f00;
+    margin: 150px 0px;
+    padding: 80px;
+}
+.ef_h1{
+    font-size: 5rem;
+}
+.ef_p1{
+    font-size: 3.3rem;
+}
+/* =========== Enjoy Food Section ===========*/
+/* =========== Menu Section ===========*/
+.menu_section{
+    margin: 150px 0px;
+}
+.menu_heading{
+    font-size: 5rem;
+}
+.menu_h1{
+    font-size: 2.91rem;
+}
+.menu_p1{
+    font-size: 1.56rem;
+    letter-spacing: 0.5px;
+}
+.menu_price{
+    font-size: 2.5rem;
+}
+/* =========== Menu Section ===========*/  
+/* =========== Best meal ===========*/
+.best_meal_area{
+    position: absolute;
+    top: -10%;
+}
+.best_meal_text{
+    z-index: 99;
+    align-self: center;
+    padding-left: 30px;
+}
+.best_meal_h1{
+    font-size: 5rem;
+}
+.best_meal_p1{
+    font-size: 3.3rem;
+}
+/* =========== Best meal ===========*/
+/* =========== Footer ===========*/
+.footer_section{
+    margin: 80px 0px;
+}
+.ft_nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 4rem;
+}
+.ft_nav .nav-link{
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+.icons{
+    margin-top: 40px;
+}
+.fa-brands{
+    font-size: 3rem;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    margin: 0px 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fa-brands:hover{
+    background-color: #e58f00;
+    color: white;
+    transform: translateY(-0.8rem);
+    -webkit-transform: translateY(-0.8rem);
+    -moz-transform: translateY(-0.8rem);
+    -ms-transform: translateY(-0.8rem);
+    -o-transform: translateY(-0.8rem);
+}
+.fa-facebook-f{
+    padding: 10px 16px;
+}
+.fa-pinterest-p{
+    padding: 10px 14px;
+}
+.fa-instagram{
+    padding: 10px 11px;
+}
+/* =========== Footer ===========*/
